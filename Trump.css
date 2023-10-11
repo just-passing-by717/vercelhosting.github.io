@@ -1,0 +1,49 @@
+h1 {
+  font-family: monospace;
+  display: flex;
+  -ms-flex-align: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  color: red;
+  text-decoration: solid;
+  text-decoration: double;
+  text-decoration: wavy;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+#MyPic {
+text-align: center;
+}
+
+h2 {
+  font-family: monospace;
+  text-decoration: underline;
+  color: red;
+  font-size: 30px;
+}
+
+body {
+  flex-direction: column;
+  padding: 10px;
+  background-image: url(https://getwallpapers.com/wallpaper/full/0/b/a/1353646-good-background-pictures-1920x1200-screen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 22px;
+}
+
+p {
+  font-family: monospace;
+  font-size: larger;
+}
+
+.abtme {
+  font-size: larger;
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+    width: 600px;
+  }
+}
